@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Yamblz</string>
+    <string name="content">Hello</string>
+    <string name="txt_description">You can click every single bell to show or hide notifications. Or click the button to see all of them.</string>
+</resources>

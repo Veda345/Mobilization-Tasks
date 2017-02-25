@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ru.yandex.yamblz.CustomLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="First"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#d9be0e"
+       />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Second"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#096505" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Third"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#6094e3" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Forth"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:background="#b174dc" />
+
+
+
+</ru.yandex.yamblz.CustomLayout>

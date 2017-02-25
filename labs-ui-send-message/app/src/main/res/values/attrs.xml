@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonView">
+    <attr name="button_color" format="color" />
+</declare-styleable>
+
+    <declare-styleable name="BallView">
+        <attr name="ball_color" format="color" />
+    </declare-styleable>
+</resources>

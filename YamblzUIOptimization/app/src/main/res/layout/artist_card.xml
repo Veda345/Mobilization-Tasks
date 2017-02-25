@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr"
+    tools:ignore="UnusedAttribute">
+
+    <ImageView
+        android:id="@+id/artist_poster"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"
+     />
+
+
+    <TextView
+        android:id="@+id/artist_albums"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/artist_poster"
+        android:layout_marginBottom="16dp"
+        android:paddingTop="16dp"
+        android:text="12 альбомов"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="16dp"
+        />
+
+
+    <TextView
+        android:id="@+id/artist_songs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/artist_albums"
+        android:layout_marginLeft="22dp"
+        android:layout_toEndOf="@+id/artist_albums"
+        android:layout_toRightOf="@+id/artist_albums"
+        android:paddingTop="16dp"
+        android:text="123 песни"
+        android:textColor="@android:color/white"
+      />
+
+    <TextView
+        android:id="@+id/artist_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artist description"
+        android:textAppearance="?android:attr/textAppearance"
+        android:layout_below="@id/artist_poster"
+        android:background="#ffffff"
+        android:padding="16dp"
+       />
+
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Artist Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:layout_above="@+id/artist_albums"
+        android:layout_alignLeft="@+id/artist_albums"
+        android:layout_alignStart="@+id/artist_albums" />
+
+</RelativeLayout>

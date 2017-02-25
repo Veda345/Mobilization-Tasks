@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#000000"
+    tools:context="com.example.vorona.carrousel.SlideShowActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fullscreen_content"
+        android:keepScreenOn="true"
+        android:gravity="center" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBarShow"
+        android:layout_gravity="center" />
+
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:layout_gravity="center_horizontal|top">
+
+        <RelativeLayout android:id="@+id/fullscreen_content_controls_top" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="48dp"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="16dp"
+            android:paddingLeft="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/finish"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            style="?metaButtonBarButtonStyle"
+            android:onClick="onDoneClick"
+            android:layout_gravity="left|top"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+        <RelativeLayout android:id="@+id/fullscreen_content_controls_bottom" style="?metaButtonBarStyle"
+            android:layout_width="match_parent" android:layout_height="40dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@color/black_overlay" android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_start"
+                android:layout_gravity="center"
+                android:id="@+id/imgPlay"
+                android:onClick="onClick"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+
+            <Button android:id="@+id/dummy_button" style="?metaButtonBarButtonStyle"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/Prefs" android:layout_gravity="right|bottom"
+                android:gravity="right|center_vertical"
+                android:onClick="onParamClick"
+                android:textColor="#ffffff"
+                android:layout_alignTop="@+id/imgPlay"
+                android:layout_alignParentEnd="true"
+                android:padding="@dimen/icon_padding"/>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</FrameLayout>

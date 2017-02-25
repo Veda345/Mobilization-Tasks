@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ru.yandex.yamblz.ui.views.IndicatorBalls1
+        android:id="@+id/ind1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="16dp" />
+
+    <ru.yandex.yamblz.ui.views.IndicatorBalls2
+        android:id="@+id/ind2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:layout_toRightOf="@+id/ind1" />
+
+    <ru.yandex.yamblz.ui.views.IndicatorBalls3
+        android:id="@+id/ind3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:layout_toRightOf="@+id/ind2" />
+
+    <ru.yandex.yamblz.ui.views.IndicatorSquare2
+        android:id="@+id/ind5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ind4"/>
+
+    <ru.yandex.yamblz.ui.views.IndicatorBalls4
+        android:id="@+id/ind4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/ind2"
+        android:layout_alignLeft="@+id/ind2"
+        android:layout_alignStart="@+id/ind2" />
+
+    <ru.yandex.yamblz.ui.views.IndicatorSquare1
+        android:id="@+id/ind6"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/ind4"
+        android:layout_alignLeft="@+id/ind3"
+        android:layout_alignStart="@+id/ind3"
+        android:layout_marginTop="14dp" />
+
+    <ru.yandex.yamblz.ui.views.IndicatorCircle1
+        android:id="@+id/ind7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/ind5"/>
+
+    <ru.yandex.yamblz.ui.views.IndicatorCircle2
+        android:id="@+id/ind8"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/ind7"
+        android:layout_alignLeft="@+id/ind4"
+        android:layout_alignStart="@+id/ind4" />
+
+    <ru.yandex.yamblz.ui.views.IndicatorCircle3
+        android:id="@+id/ind9"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/ind8"
+        android:layout_alignLeft="@+id/ind6"
+        android:layout_alignStart="@+id/ind6" />
+
+    <ru.yandex.yamblz.ui.views.IndicatorTriangle1
+        android:id="@+id/ind10"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/ind7"
+        android:layout_alignLeft="@+id/ind8"
+        android:layout_alignStart="@+id/ind8" />
+
+
+</RelativeLayout>

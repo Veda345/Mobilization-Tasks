@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background">
+
+    <ru.yandex.yamblz.ui.views.BellView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_bell"
+        android:layout_above="@+id/custom_bell2"
+        android:layout_toLeftOf="@+id/custom_bell2"
+        android:layout_toStartOf="@+id/custom_bell2"
+        android:layout_marginRight="62dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="60dp" />
+
+    <ru.yandex.yamblz.ui.views.BellView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_bell2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ru.yandex.yamblz.ui.views.BellView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/custom_bell3"
+        android:layout_above="@+id/custom_bell2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="56dp"
+        android:layout_marginEnd="56dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="@string/txt_description"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_below="@+id/custom_bell2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Try!"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/btn"/>
+
+</RelativeLayout>

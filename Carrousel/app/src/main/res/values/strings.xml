@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Фоторамка</string>
+    <string name="prefs">Настройки</string>
+    <string name="disk">Диск</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="title_activity_single_image">SingleImageActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_folder">Изображения не найдены</string>
+    <string name="error">Не удалось подключиться. \n Проверьте соединение</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="exit">Выйти</string>
+
+    <string name="title_activity_slide_show">SlideShowActivity</string>
+    <string name="dummy_button">PAUSE</string>
+    <string name="Prefs">Параметры</string>
+    <string name="finish">Готово</string>
+    <string name="pref_finish">Готово</string>
+    <string name="params">Параметры</string>
+
+</resources>

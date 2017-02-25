@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="HardcodedText,RtlHardcoded"
+    android:background="@drawable/window_background">
+
+    <ImageView
+        android:id="@+id/artist_poster"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerInside"
+        android:src="@android:color/holo_red_dark"
+        tools:ignore="ContentDescription"/>
+
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/artist_poster"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Artist Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <TextView
+        android:id="@+id/artist_albums"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/artist_name"
+        android:layout_alignRight="@+id/artist_name"
+        android:layout_below="@+id/artist_name"
+        android:gravity="right"
+        android:text="12 альбомов"/>
+
+    <TextView
+        android:id="@+id/artist_tracks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/artist_name"
+        android:layout_alignRight="@+id/artist_name"
+        android:layout_below="@+id/artist_albums"
+        android:gravity="right"
+        android:text="123 песни"/>
+
+    <TextView
+        android:id="@+id/artist_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/artist_name"
+        android:layout_alignRight="@+id/artist_name"
+        android:layout_below="@+id/artist_tracks"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Artist Description"
+        android:textAppearance="?android:attr/textAppearance"/>
+
+</RelativeLayout>

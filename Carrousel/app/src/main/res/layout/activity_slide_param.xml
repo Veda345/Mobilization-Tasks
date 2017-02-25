@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/params"
+            android:textColor="#ffffff"
+            android:textSize="24sp"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:onClick="onFinishClick"
+            android:padding="@dimen/icon_padding"
+            android:text="@string/pref_finish"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/frameLayout"
+        android:layout_alignParentStart="true"
+        android:background="#ffffff"
+        android:layout_marginTop="32dp"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp">
+
+
+        <Switch
+            android:id="@+id/switchRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Повторять"
+            android:padding="16dp"
+            android:textSize="20sp"
+            android:typeface="normal" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+        <TextView
+            android:id="@+id/txtSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Скорость"
+            android:layout_alignParentStart="true"
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+        <SeekBar
+            android:id="@+id/sbSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="14"
+            android:progress="2"
+            android:layout_toEndOf="@+id/txtSpeed"
+            android:layout_alignParentTop="true"
+            android:paddingTop="4dp"
+            android:layout_alignBottom="@+id/txtSpeed"
+            android:layout_marginLeft="24dp">
+        </SeekBar>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
