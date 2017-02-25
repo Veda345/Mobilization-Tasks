@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">LabViewPager</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_template_step">step</string>
+
+    <string name="skate_short_name_1">Element X</string>
+    <string name="skate_full_name_1">Element x Diamond Supply Nyjah 8.0"</string>
+    <string name="skate_desc_1">The Nyjah Huston Collaboration deck from Element and Diamond Supply
+        Cois a Featherlight 8" skateboard deck built to Nyjah's exact specs.</string>
+
+    <string name="skate_short_name_2">To The Limit</string>
+    <string name="skate_full_name_2">DGK To The Limit 8.25" Skateboard Deck</string>
+    <string name="skate_desc_2">Push your skills to the limit with a slight concave shape for solid
+        pop and a palm tree print DGK text graphic.</string>
+
+
+    <string name="skate_short_name_3">Wair Spirit</string>
+    <string name="skate_full_name_3">Real Wair Spirit Guide 7.75" Skateboard Deck</string>
+    <string name="skate_desc_3">Improve your skate skills with a solid concave shape for crisp pop
+        and Real\'s R1 7-ply maple construction for improved strength and longer lasting pop.</string>
+
+    <string name="skate_short_name_4">Sheckler</string>
+    <string name="skate_full_name_4">Plan B Sheckler Store Front 8.25" Skateboard Deck</string>
+    <string name="skate_desc_4">Take to the streets with this durable 7-ply maple deck made with
+        slight concave for added pop and a Ryan Sheckler tattoo parlor inspired graphic at the bottom.</string>
+
+    <string name="skate_short_name_5">Ramondetta</string>
+    <string name="skate_full_name_5">Real Ramondetta Icon 8.06" Skateboard Deck</string>
+    <string name="skate_desc_5">Bring a demonic look to your setup with the Peter Ramondetta pro
+        model Icon skateboard deck from Real. A black to gold fade with an all over goat head and
+        pentagram icon graphics will give your tricks some added style and durable 7-ply maple
+        construction with medium concave to help your trick get more poppy lift.</string>
+
+
+</resources>
